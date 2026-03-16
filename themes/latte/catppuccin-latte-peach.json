@@ -1,0 +1,136 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
+  "name": "Catppuccin Latte",
+  "id": "catppuccin-latte",
+  "version": 1,
+  "license": "MIT",
+  "homepage": "https://catppuccin.com",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "light",
+  "compatibilityVersion": 1,
+  "authors": [
+    {
+      "name": "Catppuccin Org",
+      "email": "releases@catppuccin.com",
+      "url": "https://catppuccin.com"
+    }
+  ],
+  "scopes": {
+    "base": {
+      "primary": {
+        "accent": "#fe640b",
+        "paragraph": "#4c4f69",
+        "background": "#eff1f5",
+        "border": "#9ca0b0",
+        "heading": "#4c4f69",
+        "icon": "#4c4f69",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#e6e9ef",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      },
+      "secondary": {
+        "accent": "#fe640b",
+        "paragraph": "#4c4f69",
+        "background": "#e6e9ef",
+        "border": "#9ca0b0",
+        "heading": "#6c6f85",
+        "icon": "#7c7f93",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#dce0e8",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      },
+      "disabled": {
+        "accent": "#fe640b",
+        "paragraph": "#6c6f85",
+        "background": "#e6e9ef",
+        "border": "#9ca0b0",
+        "heading": "#6c6f85",
+        "icon": "#8c8fa1",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#ccd0da",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      },
+      "selected": {
+        "accent": "#fe640b",
+        "paragraph": "#6c6f85",
+        "background": "#bcc0cc",
+        "border": "#fe640b",
+        "heading": "#4c4f69",
+        "icon": "#4c4f69",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#e6e9ef",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      },
+      "error": {
+        "accent": "#d20f39",
+        "paragraph": "#d20f39",
+        "background": "#d20f39",
+        "border": "#9ca0b0",
+        "heading": "#d20f39",
+        "icon": "#d20f39",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#ccd0da",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      },
+      "success": {
+        "accent": "#40a02b",
+        "paragraph": "#40a02b",
+        "background": "#40a02b",
+        "border": "#9ca0b0",
+        "heading": "#40a02b",
+        "icon": "#40a02b",
+        "separator": "#9ca0b0",
+        "placeholder": "#8c8fa1",
+        "hover": "#ccd0da",
+        "accentForeground": "#eff1f5",
+        "backdrop": "#0000001a"
+      }
+    },
+    "statusBar": {
+      "primary": {
+        "paragraph": "#4c4f69",
+        "background": "#e6e9ef"
+      }
+    },
+    "editor": {
+      "selected": {
+        "background": "#7c7f93"
+      }
+    },
+    "navigationMenu": {
+      "primary": {
+        "paragraph": "#4c4f69",
+        "background": "#e6e9ef",
+        "icon": "#4c4f69",
+        "hover": "#eff1f5"
+      },
+      "secondary": {
+        "background": "#eff1f5"
+      },
+      "selected": {
+        "background": "#eff1f5",
+        "hover": "#eff1f5"
+      }
+    },
+    "contextMenu": {
+      "primary": {
+        "background": "#e6e9ef"
+      }
+    },
+    "sheet": {
+      "selected": {
+        "paragraph": "#fe640b"
+      }
+    }
+  }
+}

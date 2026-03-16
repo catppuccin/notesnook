@@ -1,0 +1,136 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
+  "name": "Catppuccin Frappé",
+  "id": "catppuccin-frappe",
+  "version": 1,
+  "license": "MIT",
+  "homepage": "https://catppuccin.com",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "dark",
+  "compatibilityVersion": 1,
+  "authors": [
+    {
+      "name": "Catppuccin Org",
+      "email": "releases@catppuccin.com",
+      "url": "https://catppuccin.com"
+    }
+  ],
+  "scopes": {
+    "base": {
+      "primary": {
+        "accent": "#babbf1",
+        "paragraph": "#c6d0f5",
+        "background": "#303446",
+        "border": "#737994",
+        "heading": "#c6d0f5",
+        "icon": "#c6d0f5",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#292c3c",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      },
+      "secondary": {
+        "accent": "#babbf1",
+        "paragraph": "#c6d0f5",
+        "background": "#292c3c",
+        "border": "#737994",
+        "heading": "#a5adce",
+        "icon": "#949cbb",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#232634",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      },
+      "disabled": {
+        "accent": "#babbf1",
+        "paragraph": "#a5adce",
+        "background": "#292c3c",
+        "border": "#737994",
+        "heading": "#a5adce",
+        "icon": "#838ba7",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#414559",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      },
+      "selected": {
+        "accent": "#babbf1",
+        "paragraph": "#a5adce",
+        "background": "#51576d",
+        "border": "#babbf1",
+        "heading": "#c6d0f5",
+        "icon": "#c6d0f5",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#292c3c",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      },
+      "error": {
+        "accent": "#e78284",
+        "paragraph": "#e78284",
+        "background": "#e78284",
+        "border": "#737994",
+        "heading": "#e78284",
+        "icon": "#e78284",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#414559",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      },
+      "success": {
+        "accent": "#a6d189",
+        "paragraph": "#a6d189",
+        "background": "#a6d189",
+        "border": "#737994",
+        "heading": "#a6d189",
+        "icon": "#a6d189",
+        "separator": "#737994",
+        "placeholder": "#838ba7",
+        "hover": "#414559",
+        "accentForeground": "#303446",
+        "backdrop": "#0000001a"
+      }
+    },
+    "statusBar": {
+      "primary": {
+        "paragraph": "#c6d0f5",
+        "background": "#292c3c"
+      }
+    },
+    "editor": {
+      "selected": {
+        "background": "#949cbb"
+      }
+    },
+    "navigationMenu": {
+      "primary": {
+        "paragraph": "#c6d0f5",
+        "background": "#292c3c",
+        "icon": "#c6d0f5",
+        "hover": "#303446"
+      },
+      "secondary": {
+        "background": "#303446"
+      },
+      "selected": {
+        "background": "#303446",
+        "hover": "#303446"
+      }
+    },
+    "contextMenu": {
+      "primary": {
+        "background": "#292c3c"
+      }
+    },
+    "sheet": {
+      "selected": {
+        "paragraph": "#babbf1"
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+---
+whiskers:
+  version: "^2.8.0"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}"
+---
+{%- set accent = flavor.colors[accent] -%}{
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
+  "name": "Catppuccin {{ flavor.name }}",
+  "id": "catppuccin-{{ flavor.identifier }}",
+  "version": 1,
+  "license": "MIT",
+  "homepage": "https://catppuccin.com",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "{{ if(cond=flavor.dark, t="dark", f="light") }}",
+  "compatibilityVersion": 1,
+  "authors": [
+    {
+      "name": "Catppuccin Org",
+      "email": "releases@catppuccin.com",
+      "url": "https://catppuccin.com"
+    }
+  ],
+  "scopes": {
+    "base": {
+      "primary": {
+        "accent": "{{ accent.hex }}",
+        "paragraph": "{{ text.hex }}",
+        "background": "{{ base.hex }}",
+        "border": "{{ overlay0.hex }}",
+        "heading": "{{ text.hex }}",
+        "icon": "{{ text.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ mantle.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      },
+      "secondary": {
+        "accent": "{{ accent.hex }}",
+        "paragraph": "{{ text.hex }}",
+        "background": "{{ mantle.hex }}",
+        "border": "{{ overlay0.hex }}",
+        "heading": "{{ subtext0.hex }}",
+        "icon": "{{ overlay2.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ crust.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      },
+      "disabled": {
+        "accent": "{{ accent.hex }}",
+        "paragraph": "{{ subtext0.hex }}",
+        "background": "{{ mantle.hex }}",
+        "border": "{{ overlay0.hex }}",
+        "heading": "{{ subtext0.hex }}",
+        "icon": "{{ overlay1.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ surface0.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      },
+      "selected": {
+        "accent": "{{ accent.hex }}",
+        "paragraph": "{{ subtext0.hex }}",
+        "background": "{{ surface1.hex }}",
+        "border": "{{ accent.hex }}",
+        "heading": "{{ text.hex }}",
+        "icon": "{{ text.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ mantle.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      },
+      "error": {
+        "accent": "{{ red.hex }}",
+        "paragraph": "{{ red.hex }}",
+        "background": "{{ red | mod(darkness=80) | hex }}",
+        "border": "{{ overlay0.hex }}",
+        "heading": "{{ red.hex }}",
+        "icon": "{{ red.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ surface0.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      },
+      "success": {
+        "accent": "{{ green.hex }}",
+        "paragraph": "{{ green.hex }}",
+        "background": "{{ green | mod(darkness=80) | hex }}",
+        "border": "{{ overlay0.hex }}",
+        "heading": "{{ green.hex }}",
+        "icon": "{{ green.hex }}",
+        "separator": "{{ overlay0.hex }}",
+        "placeholder": "{{ overlay1.hex }}",
+        "hover": "{{ surface0.hex }}",
+        "accentForeground": "{{ base.hex }}",
+        "backdrop": "#0000001a"
+      }
+    },
+    "statusBar": {
+      "primary": {
+        "paragraph": "{{ text.hex }}",
+        "background": "{{ mantle.hex }}"
+      }
+    },
+    "editor": {
+      "selected": {
+        "background": "{{ overlay2.hex }}"
+      }
+    },
+    "navigationMenu": {
+      "primary": {
+        "paragraph": "{{ text.hex }}",
+        "background": "{{ mantle.hex }}",
+        "icon": "{{ text.hex }}",
+        "hover": "{{ base.hex }}"
+      },
+      "secondary": {
+        "background": "{{ base.hex }}"
+      },
+      "selected": {
+        "background": "{{ base.hex }}",
+        "hover": "{{ base.hex }}"
+      }
+    },
+    "contextMenu": {
+      "primary": {
+        "background": "{{ mantle.hex }}"
+      }
+    },
+    "sheet": {
+      "selected": {
+        "paragraph": "{{ accent.hex }}"
+      }
+    }
+  }
+}
