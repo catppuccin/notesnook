@@ -34,7 +34,7 @@ whiskers:
         "heading": "{{ text.hex }}",
         "icon": "{{ text.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"
@@ -47,7 +47,7 @@ whiskers:
         "heading": "{{ subtext0.hex }}",
         "icon": "{{ overlay2.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ crust.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"
@@ -60,7 +60,7 @@ whiskers:
         "heading": "{{ subtext0.hex }}",
         "icon": "{{ overlay1.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"
@@ -73,7 +73,7 @@ whiskers:
         "heading": "{{ text.hex }}",
         "icon": "{{ text.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"
@@ -86,7 +86,7 @@ whiskers:
         "heading": "{{ red.hex }}",
         "icon": "{{ red.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"
@@ -99,7 +99,7 @@ whiskers:
         "heading": "{{ green.hex }}",
         "icon": "{{ green.hex }}",
         "separator": "{{ overlay0.hex }}",
-        "placeholder": "{{ overlay1.hex }}",
+        "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
         "backdrop": "#0000001a"

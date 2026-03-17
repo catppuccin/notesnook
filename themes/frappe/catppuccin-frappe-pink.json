@@ -25,7 +25,7 @@
         "heading": "#c6d0f5",
         "icon": "#c6d0f5",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#292c3c",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
@@ -38,7 +38,7 @@
         "heading": "#a5adce",
         "icon": "#949cbb",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#232634",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
@@ -51,7 +51,7 @@
         "heading": "#a5adce",
         "icon": "#838ba7",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
@@ -64,7 +64,7 @@
         "heading": "#c6d0f5",
         "icon": "#c6d0f5",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#292c3c",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
@@ -77,7 +77,7 @@
         "heading": "#e78284",
         "icon": "#e78284",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
@@ -90,7 +90,7 @@
         "heading": "#a6d189",
         "icon": "#a6d189",
         "separator": "#737994",
-        "placeholder": "#838ba7",
+        "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
         "backdrop": "#0000001a"
