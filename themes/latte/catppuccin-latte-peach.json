@@ -128,7 +128,7 @@
     },
     "editorToolbar": {
       "primary": {
-        "background": "#e6e9ef",
+        "background": "#eff1f5",
         "hover": "#ccd0da"
       },
       "secondary": {
@@ -138,7 +138,7 @@
     "navigationMenu": {
       "primary": {
         "paragraph": "#4c4f69",
-        "background": "#e6e9ef",
+        "background": "#dce0e8",
         "icon": "#4c4f69",
         "hover": "#eff1f5"
       },

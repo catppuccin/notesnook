@@ -137,7 +137,7 @@ whiskers:
     },
     "editorToolbar": {
       "primary": {
-        "background": "{{ mantle.hex }}",
+        "background": "{{ base.hex }}",
         "hover": "{{ surface0.hex }}"
       },
       "secondary": {
@@ -147,7 +147,7 @@ whiskers:
     "navigationMenu": {
       "primary": {
         "paragraph": "{{ text.hex }}",
-        "background": "{{ mantle.hex }}",
+        "background": "{{ crust.hex }}",
         "icon": "{{ text.hex }}",
         "hover": "{{ base.hex }}"
       },
