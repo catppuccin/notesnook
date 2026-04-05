@@ -28,7 +28,7 @@
         "placeholder": "#a6adc8",
         "hover": "#181825",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       },
       "secondary": {
         "accent": "#89b4fa",
@@ -41,7 +41,7 @@
         "placeholder": "#a6adc8",
         "hover": "#11111b",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       },
       "disabled": {
         "accent": "#89b4fa",
@@ -54,7 +54,7 @@
         "placeholder": "#a6adc8",
         "hover": "#313244",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       },
       "selected": {
         "accent": "#89b4fa",
@@ -67,7 +67,7 @@
         "placeholder": "#a6adc8",
         "hover": "#181825",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       },
       "error": {
         "accent": "#f38ba8",
@@ -80,7 +80,7 @@
         "placeholder": "#a6adc8",
         "hover": "#313244",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       },
       "success": {
         "accent": "#a6e3a1",
@@ -93,7 +93,7 @@
         "placeholder": "#a6adc8",
         "hover": "#313244",
         "accentForeground": "#1e1e2e",
-        "backdrop": "#0000001a"
+        "backdrop": "#11111b1a"
       }
     },
     "statusBar": {

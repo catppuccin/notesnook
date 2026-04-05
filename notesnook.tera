@@ -37,7 +37,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       },
       "secondary": {
         "accent": "{{ accent.hex }}",
@@ -50,7 +50,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ crust.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       },
       "disabled": {
         "accent": "{{ accent.hex }}",
@@ -63,7 +63,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       },
       "selected": {
         "accent": "{{ accent.hex }}",
@@ -76,7 +76,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       },
       "error": {
         "accent": "{{ red.hex }}",
@@ -89,7 +89,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       },
       "success": {
         "accent": "{{ green.hex }}",
@@ -102,7 +102,7 @@ whiskers:
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
-        "backdrop": "#0000001a"
+        "backdrop": "{{ crust | mod(opacity=0.1) | hex }}"
       }
     },
     "statusBar": {
