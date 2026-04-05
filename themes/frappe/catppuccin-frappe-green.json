@@ -1,13 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
   "name": "Catppuccin Frappé Green",
   "id": "catppuccin-frappe-green",
-  "version": 1,
-  "license": "MIT",
-  "homepage": "https://github.com/catppuccin/notesnook",
-  "description": "A soothing pastel theme for the high-spirited!",
-  "colorScheme": "dark",
+  "version": 1.1,
   "compatibilityVersion": 1,
+  "license": "MIT",
   "authors": [
     {
       "name": "Catppuccin Org",
@@ -15,6 +11,10 @@
       "url": "https://catppuccin.com"
     }
   ],
+  "homepage": "https://github.com/catppuccin/notesnook",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "dark",
+  "tags": ["catppuccin"],
   "scopes": {
     "base": {
       "primary": {
@@ -24,11 +24,11 @@
         "border": "#414559",
         "heading": "#c6d0f5",
         "icon": "#c6d0f5",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#292c3c",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       },
       "secondary": {
         "accent": "#a6d189",
@@ -37,11 +37,11 @@
         "border": "#414559",
         "heading": "#a5adce",
         "icon": "#949cbb",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#232634",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       },
       "disabled": {
         "accent": "#a6d189",
@@ -50,11 +50,11 @@
         "border": "#414559",
         "heading": "#a5adce",
         "icon": "#838ba7",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       },
       "selected": {
         "accent": "#a6d189",
@@ -63,48 +63,76 @@
         "border": "#a6d189",
         "heading": "#c6d0f5",
         "icon": "#c6d0f5",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#292c3c",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       },
       "error": {
         "accent": "#e78284",
         "paragraph": "#e78284",
-        "background": "#e78284",
+        "background": "#303446",
         "border": "#414559",
         "heading": "#e78284",
         "icon": "#e78284",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       },
       "success": {
         "accent": "#a6d189",
         "paragraph": "#a6d189",
-        "background": "#a6d189",
+        "background": "#303446",
         "border": "#414559",
         "heading": "#a6d189",
         "icon": "#a6d189",
-        "separator": "#737994",
+        "separator": "#414559",
         "placeholder": "#a5adce",
         "hover": "#414559",
         "accentForeground": "#303446",
-        "backdrop": "#0000001a"
+        "backdrop": "#2326341a"
       }
     },
     "statusBar": {
       "primary": {
         "paragraph": "#c6d0f5",
-        "background": "#292c3c"
+        "background": "#292c3c",
+        "separator": "#414559"
+      }
+    },
+    "list": {
+      "primary": {
+        "paragraph": "#a5adce",
+        "background": "#292c3c",
+        "hover": "#414559"
+      },
+      "secondary": {
+        "paragraph": "#c6d0f5"
       }
     },
     "editor": {
+      "primary": {
+        "background": "#303446",
+        "border": "#414559"
+      },
+      "secondary": {
+        "paragraph": "#a5adce",
+        "border": "#232634"
+      },
       "selected": {
         "background": "#949cbb"
+      }
+    },
+    "editorToolbar": {
+      "primary": {
+        "background": "#292c3c",
+        "hover": "#414559"
+      },
+      "secondary": {
+        "background": "#414559"
       }
     },
     "navigationMenu": {
@@ -132,5 +160,6 @@
         "paragraph": "#a6d189"
       }
     }
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json"
 }
