@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download the flavor and accent combination of your choice.
+1. Download the flavor and accent combination of your choice from [themes](themes).
 2. Open the app and click the profile icon in the top left corner.
 3. In the dropdown menu, select **Settings** and then **Appearance**.
 4. Click **Load from file** and choose the downloaded file.
