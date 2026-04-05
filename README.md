@@ -42,9 +42,11 @@
 4. Click **Load from file** and choose the downloaded file.
 5. Enjoy!
 
-> [!TIP]
-> If you want to switch between latte and one of the dark flavors, you can download the file of the other flavor and load it. After that, you can use the built-in color scheme switcher to switch between the two.
-> And if you want to switch between two dark flavors, you can change the color scheme of one of the flavors before importing it to the opposite of the other flavor to allow switching between two dark themes.
+### Switching between Light and Dark
+If you want to switch between Latte and one of the dark flavors, you can download the file of the other flavor and load it. After that, you can use the built-in color scheme switcher to switch between the two.
+
+### Switching between Two Dark Flavors
+If you want to switch between two dark flavors, you can change the color scheme of one of the flavors before importing it to the opposite of the other flavor to allow switching between two dark themes.
 
 ## 💝 Thanks to
 
