@@ -1,13 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
   "name": "Catppuccin Latte Maroon",
   "id": "catppuccin-latte-maroon",
-  "version": 1,
-  "license": "MIT",
-  "homepage": "https://github.com/catppuccin/notesnook",
-  "description": "A soothing pastel theme for the high-spirited!",
-  "colorScheme": "light",
+  "version": 1.1,
   "compatibilityVersion": 1,
+  "license": "MIT",
   "authors": [
     {
       "name": "Catppuccin Org",
@@ -15,6 +11,10 @@
       "url": "https://catppuccin.com"
     }
   ],
+  "homepage": "https://github.com/catppuccin/notesnook",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "light",
+  "tags": ["catppuccin"],
   "scopes": {
     "base": {
       "primary": {
@@ -24,7 +24,7 @@
         "border": "#ccd0da",
         "heading": "#4c4f69",
         "icon": "#4c4f69",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#e6e9ef",
         "accentForeground": "#eff1f5",
@@ -37,7 +37,7 @@
         "border": "#ccd0da",
         "heading": "#6c6f85",
         "icon": "#7c7f93",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#dce0e8",
         "accentForeground": "#eff1f5",
@@ -50,7 +50,7 @@
         "border": "#ccd0da",
         "heading": "#6c6f85",
         "icon": "#8c8fa1",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#ccd0da",
         "accentForeground": "#eff1f5",
@@ -63,7 +63,7 @@
         "border": "#e64553",
         "heading": "#4c4f69",
         "icon": "#4c4f69",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#e6e9ef",
         "accentForeground": "#eff1f5",
@@ -72,11 +72,11 @@
       "error": {
         "accent": "#d20f39",
         "paragraph": "#d20f39",
-        "background": "#d20f39",
+        "background": "#eff1f5",
         "border": "#ccd0da",
         "heading": "#d20f39",
         "icon": "#d20f39",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#ccd0da",
         "accentForeground": "#eff1f5",
@@ -85,11 +85,11 @@
       "success": {
         "accent": "#40a02b",
         "paragraph": "#40a02b",
-        "background": "#40a02b",
+        "background": "#eff1f5",
         "border": "#ccd0da",
         "heading": "#40a02b",
         "icon": "#40a02b",
-        "separator": "#9ca0b0",
+        "separator": "#ccd0da",
         "placeholder": "#6c6f85",
         "hover": "#ccd0da",
         "accentForeground": "#eff1f5",
@@ -132,5 +132,6 @@
         "paragraph": "#e64553"
       }
     }
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json"
 }

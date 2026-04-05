@@ -8,15 +8,11 @@ whiskers:
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 {%- set accent = flavor.colors[accent] -%}{
-  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
   "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
   "id": "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}",
-  "version": 1,
-  "license": "MIT",
-  "homepage": "https://github.com/catppuccin/notesnook",
-  "description": "A soothing pastel theme for the high-spirited!",
-  "colorScheme": "{{ if(cond=flavor.dark, t="dark", f="light") }}",
+  "version": 1.1,
   "compatibilityVersion": 1,
+  "license": "MIT",
   "authors": [
     {
       "name": "Catppuccin Org",
@@ -24,6 +20,10 @@ whiskers:
       "url": "https://catppuccin.com"
     }
   ],
+  "homepage": "https://github.com/catppuccin/notesnook",
+  "description": "A soothing pastel theme for the high-spirited!",
+  "colorScheme": "{{ if(cond=flavor.dark, t="dark", f="light") }}",
+  "tags": ["catppuccin"],
   "scopes": {
     "base": {
       "primary": {
@@ -33,7 +33,7 @@ whiskers:
         "border": "{{ surface0.hex }}",
         "heading": "{{ text.hex }}",
         "icon": "{{ text.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -46,7 +46,7 @@ whiskers:
         "border": "{{ surface0.hex }}",
         "heading": "{{ subtext0.hex }}",
         "icon": "{{ overlay2.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ crust.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -59,7 +59,7 @@ whiskers:
         "border": "{{ surface0.hex }}",
         "heading": "{{ subtext0.hex }}",
         "icon": "{{ overlay1.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -72,7 +72,7 @@ whiskers:
         "border": "{{ accent.hex }}",
         "heading": "{{ text.hex }}",
         "icon": "{{ text.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ mantle.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -81,11 +81,11 @@ whiskers:
       "error": {
         "accent": "{{ red.hex }}",
         "paragraph": "{{ red.hex }}",
-        "background": "{{ red | mod(darkness=80) | hex }}",
+        "background": "{{ base.hex }}",
         "border": "{{ surface0.hex }}",
         "heading": "{{ red.hex }}",
         "icon": "{{ red.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -94,11 +94,11 @@ whiskers:
       "success": {
         "accent": "{{ green.hex }}",
         "paragraph": "{{ green.hex }}",
-        "background": "{{ green | mod(darkness=80) | hex }}",
+        "background": "{{ base.hex }}",
         "border": "{{ surface0.hex }}",
         "heading": "{{ green.hex }}",
         "icon": "{{ green.hex }}",
-        "separator": "{{ overlay0.hex }}",
+        "separator": "{{ surface0.hex }}",
         "placeholder": "{{ subtext0.hex }}",
         "hover": "{{ surface0.hex }}",
         "accentForeground": "{{ base.hex }}",
@@ -141,5 +141,6 @@ whiskers:
         "paragraph": "{{ accent.hex }}"
       }
     }
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json"
 }
