@@ -1,16 +1,16 @@
 ---
 whiskers:
-  version: "^2.8.0"
+  version: "^2.9.0"
   matrix:
     - flavor
     - accent
   filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
-  hex_format: "#{{r}}{{g}}{{b}}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 {%- set accent = flavor.colors[accent] -%}{
   "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
-  "name": "Catppuccin {{ flavor.name }}",
-  "id": "catppuccin-{{ flavor.identifier }}",
+  "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
+  "id": "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}",
   "version": 1,
   "license": "MIT",
   "homepage": "https://github.com/catppuccin/notesnook",

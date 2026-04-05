@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetwriters/notesnook-themes/main/schemas/v1.schema.json",
-  "name": "Catppuccin Mocha",
-  "id": "catppuccin-mocha",
+  "name": "Catppuccin Mocha Red",
+  "id": "catppuccin-mocha-red",
   "version": 1,
   "license": "MIT",
   "homepage": "https://github.com/catppuccin/notesnook",
