@@ -99,12 +99,40 @@
     "statusBar": {
       "primary": {
         "paragraph": "#c6d0f5",
-        "background": "#292c3c"
+        "background": "#292c3c",
+        "separator": "#414559"
+      }
+    },
+    "list": {
+      "primary": {
+        "paragraph": "#a5adce",
+        "background": "#292c3c",
+        "hover": "#414559"
+      },
+      "secondary": {
+        "paragraph": "#c6d0f5"
       }
     },
     "editor": {
+      "primary": {
+        "background": "#303446",
+        "border": "#414559"
+      },
+      "secondary": {
+        "paragraph": "#a5adce",
+        "border": "#232634"
+      },
       "selected": {
         "background": "#949cbb"
+      }
+    },
+    "editorToolbar": {
+      "primary": {
+        "background": "#292c3c",
+        "hover": "#414559"
+      },
+      "secondary": {
+        "background": "#414559"
       }
     },
     "navigationMenu": {

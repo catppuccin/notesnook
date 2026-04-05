@@ -108,12 +108,40 @@ whiskers:
     "statusBar": {
       "primary": {
         "paragraph": "{{ text.hex }}",
-        "background": "{{ mantle.hex }}"
+        "background": "{{ mantle.hex }}",
+        "separator": "{{ surface0.hex }}"
+      }
+    },
+    "list": {
+      "primary": {
+        "paragraph": "{{ subtext0.hex }}",
+        "background": "{{ mantle.hex }}",
+        "hover": "{{ surface0.hex }}"
+      },
+      "secondary": {
+        "paragraph": "{{ text.hex }}"
       }
     },
     "editor": {
+      "primary": {
+        "background": "{{ base.hex }}",
+        "border": "{{ surface0.hex }}"
+      },
+      "secondary": {
+        "paragraph": "{{ subtext0.hex }}",
+        "border": "{{ crust.hex }}"
+      },
       "selected": {
         "background": "{{ overlay2.hex }}"
+      }
+    },
+    "editorToolbar": {
+      "primary": {
+        "background": "{{ mantle.hex }}",
+        "hover": "{{ surface0.hex }}"
+      },
+      "secondary": {
+        "background": "{{ surface0.hex }}"
       }
     },
     "navigationMenu": {
